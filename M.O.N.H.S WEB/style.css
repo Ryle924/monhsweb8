@@ -1,0 +1,156 @@
+body{
+    background-color: lemonchiffon;
+}
+.monhsl{
+    height:100px;
+    width:px;
+    position:absolute;
+   bottom:px;
+    left:37px;
+}
+.monhsh{
+    color: white;
+    position: absolute;
+    bottom:543px;
+    left:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button {
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #000000;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+  
+  button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+background-color:black;
+    z-index: -1;
+  }
+  
+  button:hover, button:focus {
+    color:white;
+  }
+  
+  button:hover:before, button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+.btn{
+  position: absolute;
+  left:699px;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.btn-container {
+  text-align: center;
+}
+.insidemenu{
+  width:85px;
+}
+.x1{
+  text-decoration: none;
+  border:2px solid firebrick;
+  border-radius:12px;
+  padding: 5px;
+  color: #6D2323;
+  position: relative;
+  left: 1500px;
+  bottom:100px;
+}
+.insidemenu{ 
+  width:85px; 
+  padding: 35px 0; 
+  align-items:end; 
+  justify-content: space-between;
+}
+.monhs3{
+width:120px; 
+cursor:pointer;
+right:35px;
+position: relative;
+} 
+.insidemenu ul li::after{ 
+  content: ''; 
+  height: 2px; 
+  width: 0; 
+  background: #6D2323; 
+  position:absolute; 
+  left: 0; 
+  top: 17px; 
+  transition: 0.5s;
+  margin: auto;
+  display: block;
+}
+.insidemenu ul li{ 
+list-style:none; 
+display:inline-block; 
+margin: 0px; 
+position: relative;
+right:40px;
+}
+.insidemenu ul li a{ 
+  text-decoration: none; 
+  color:firebrick; 
+  text-transform: uppercase; 
+} 
+.insidemenu ul li:hover::after{
+  width:100%;
+  position: absolute;
+  top:17px;
+}
+video{
+height:px;
+width:1500px;
+left:10px;
+bottom:200px;
+}
+.search1{
+  position: absolute;
+  left:520px;
+}
+.menu1{
+  position: absolute;
+  left:675px;
+}
+.monhs2{
+  position: relative;
+  left:10px;
+}
+.uni{
+  position: relative;
+  left:10px;
+}
+p{
+  position: relative;
+  left:14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
